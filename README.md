@@ -1,33 +1,33 @@
-#📊 Pixela Habit Tracker
+# 📊 Pixela Habit Tracker
 Un proyecto simple que utiliza la API de Pixela para rastrear hábitos diarios como el ciclismo, lectura, meditación, etc. Automatiza la creación de usuarios, gráficos, registros diarios (pixeles) y operaciones CRUD usando requests, variables de entorno con dotenv, y fechas con datetime.
 
-#🚀 Funcionalidades
--✅ Crear usuario en Pixela (1ª vez)
+# 🚀 Funcionalidades
+- ✅ Crear usuario en Pixela (1ª vez)
 
--📈 Crear un gráfico para seguimiento de hábitos
+- 📈 Crear un gráfico para seguimiento de hábitos
 
--🟢 Registrar una entrada diaria (pixel)
+- 🟢 Registrar una entrada diaria (pixel)
 
--✏️ Actualizar una entrada existente
+- ✏️ Actualizar una entrada existente
 
--❌ Eliminar una entrada (pixel)
+- ❌ Eliminar una entrada (pixel)
 
--🔒 Uso seguro de claves API con .env
+- 🔒 Uso seguro de claves API con .env
 
-#📦 Tecnologías utilizadas
--Python 3
+# 📦 Tecnologías utilizadas
+- Python 3
 
--requests
+- requests
 
--python-dotenv
+- python-dotenv
 
--Pixela API
+- Pixela API
 
--datetime
+- datetime
 
--.env para gestión de secretos
+- .env para gestión de secretos
 
-#📁 Estructura del código
+# 📁 Estructura del código
 
 ```bash
 load_dotenv()
@@ -55,7 +55,7 @@ GRAPH_ID = "graph1"
 requests.delete(url=pixela_put_endpoint, headers=headers)
 ```
 
-#🛠️ Cómo usar
+# 🛠️ Cómo usar
 1. Clona el repositorio.
 
 2. Crea un archivo .env con esta estructura:
